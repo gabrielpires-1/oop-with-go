@@ -7,7 +7,7 @@ type Motorcycle struct {
 }
 
 // Motorcycle constructor
-func newMotorcycle(licensePlate string, hasCargo bool) Motorcycle {
+func NewMotorcycle(licensePlate string, hasCargo bool) Motorcycle {
 	return Motorcycle{
 		LandVehicle: LandVehicle{
 			numberOfWheels: 2,

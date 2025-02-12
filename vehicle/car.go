@@ -10,7 +10,7 @@ type Car struct {
 }
 
 // Car constructor
-func newCar(licensePlate string, numberOfSeats, numberOfDoors int) Car {
+func NewCar(licensePlate string, numberOfSeats, numberOfDoors int) Car {
 	return Car{
 		LandVehicle: LandVehicle{
 			numberOfWheels: 4,
