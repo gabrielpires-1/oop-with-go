@@ -20,4 +20,8 @@ func main() {
 	motorcycle.Accelerate()           // Uses inherited method from LandVehicle
 	fmt.Println(motorcycle.GetInfo()) // Uses inherited method from LandVehicle
 	motorcycle.SlowDown()             // Uses inherited method from LandVehicle
+
+	fmt.Println()
+
+	fmt.Println(v.Drive(car))
 }
